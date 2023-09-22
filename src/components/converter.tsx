@@ -25,7 +25,7 @@ const UtcConverter: React.FC = () => {
             <select id="timezone" value={selectedTimeZone} onChange={(e) => setSelectedTimeZone(e.target.value)}>
                 <option value="">Select a Time Zone</option>
                 <option value="America/New_York">New York</option>
-                <option value="America/Los_Angeles">Los Angeles</option>
+                <option value="America/Los_Angeles">Los Angeles(real time)</option>
                 {/* will add more times after testing here */}
                 {/* Add more time zones here */}
             </select>
